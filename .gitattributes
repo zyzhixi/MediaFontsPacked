@@ -1,0 +1,13 @@
+# 统一换行符：仓库内一律 LF，避免跨平台贡献产生整文件 diff
+* text=auto eol=lf
+
+# 二进制条目不做任何转换
+*.png binary
+*.jpg binary
+*.ttf binary
+*.otf binary
+*.ttc binary
+*.otc binary
+*.woff binary
+*.woff2 binary
+*.mfp binary

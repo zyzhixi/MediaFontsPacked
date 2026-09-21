@@ -1,0 +1,141 @@
+{
+  "mfpVersion": "1.0.0",
+  "formatVersion": 1,
+  "revision": 42,
+  "parentRevision": 41,
+  "createdAt": "2026-09-20T12:00:00Z",
+  "updatedAt": "2026-09-20T15:30:00Z",
+  "operation": "addFont",
+  "changes": {
+    "added": ["font-005"],
+    "removed": ["font-002"],
+    "modified": ["fonts/font-001", "templates/default-v1"],
+    "compacted": false
+  },
+  "package": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "My Font Pack",
+    "description": "A collection of display fonts",
+    "version": "2.1.0",
+    "cover": "assets/cover.png",
+    "screenshots": ["assets/screenshots/01.png"],
+    "icon": "assets/icons/icon.png",
+    "eula": "licenses/eula.txt",
+    "allowRedistribution": true,
+    "tags": ["display", "serif"]
+  },
+  "fonts": [
+    {
+      "id": "font-001",
+      "hash": "sha256:a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2",
+      "file": "fonts/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.ttc",
+      "originalName": "MyFontCollection.ttc",
+      "format": "ttc",
+      "isCollection": true,
+      "faceCount": 4,
+      "installMode": "allFaces",
+      "faces": [
+        {
+          "faceIndex": 0,
+          "postscriptName": "MyFont-Regular",
+          "familyName": "My Font",
+          "subfamilyName": "Regular",
+          "version": "1.000",
+          "characterSet": { "unicodeRanges": ["U+0020-U+007E"], "glyphCount": 567 },
+          "variationAxes": null,
+          "colorTables": []
+        },
+        {
+          "faceIndex": 1,
+          "postscriptName": "MyFont-Bold",
+          "familyName": "My Font",
+          "subfamilyName": "Bold",
+          "version": "1.000",
+          "characterSet": { "unicodeRanges": ["U+0020-U+007E"], "glyphCount": 571 },
+          "variationAxes": null,
+          "colorTables": []
+        }
+      ],
+      "metadata": {
+        "familyName": "My Font",
+        "subfamilyName": "Regular",
+        "postscriptName": "MyFont-Regular",
+        "fullName": "My Font Regular",
+        "version": "1.000",
+        "copyright": "Copyright 2026",
+        "designer": "Jane Doe",
+        "designerURL": "https://example.com",
+        "license": "OFL-1.1",
+        "licenseURL": "https://scripts.sil.org/OFL",
+        "characterSet": {
+          "unicodeRanges": ["U+0020-U+007E", "U+00A0-U+00FF"],
+          "glyphCount": 1234
+        },
+        "variationAxes": {
+          "wght": { "name": "Weight", "min": 100, "default": 400, "max": 900 }
+        },
+        "colorTables": ["COLR", "CPAL"],
+        "availableFormats": ["ttf", "woff2"],
+        "woff2File": "fonts/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.woff2"
+      },
+      "preview": {
+        "image": "previews/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.preview.png",
+        "templateId": "default-v1",
+        "generatedText": "AaBbCc 你好世界 0123",
+        "source": "generated"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "file": "licenses/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.license.txt",
+        "allowRedistribution": true,
+        "allowCommercial": true,
+        "allowModification": true
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "default-v1",
+      "name": "默认预览模板",
+      "isDefault": true,
+      "file": "templates/default-v1.json"
+    }
+  ],
+  "conflicts": {
+    "duplicates": [
+      { "fontId": "font-002", "duplicateOf": "font-001", "type": "exact" }
+    ],
+    "versionConflicts": [
+      { "fontId": "font-003", "conflictsWith": "font-001", "type": "version" }
+    ],
+    "nameConflicts": [
+      { "fontId": "font-004", "conflictsWith": "font-001", "type": "name" }
+    ],
+    "formatDuplicates": [
+      { "fontId": "font-005", "duplicateOf": "font-001", "type": "format" }
+    ]
+  },
+  "storage": {
+    "garbageBytes": 52428800,
+    "garbageRatio": 0.12,
+    "compactionThreshold": 0.2,
+    "lastCompactionRevision": 30,
+    "entryCount": 47,
+    "liveEntryCount": 42
+  },
+  "checksum": {
+    "algorithm": "sha256",
+    "manifestHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "entries": {
+      "fonts/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.ttc": "sha256:a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2",
+      "previews/a3f8c2d1e5b7a9f4c6d8e0b2a4c6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2.preview.png": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+      "templates/default-v1.json": "sha256:3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  },
+  "recovery": {
+    "present": true,
+    "method": "client-defined",
+    "coveredRange": "central-directory+manifest",
+    "length": 1048576
+  }
+}

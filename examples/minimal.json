@@ -1,0 +1,46 @@
+{
+  "mfpVersion": "1.0.0",
+  "formatVersion": 1,
+  "revision": 1,
+  "parentRevision": null,
+  "createdAt": "2026-09-20T12:00:00Z",
+  "updatedAt": "2026-09-20T12:00:00Z",
+  "operation": "create",
+  "package": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "My Font Pack",
+    "version": "1.0.0"
+  },
+  "fonts": [
+    {
+      "id": "font-001",
+      "hash": "sha256:2b1a7c9e4d3f8a6b5c2e1d0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b",
+      "file": "fonts/2b1a7c9e4d3f8a6b5c2e1d0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b.ttf",
+      "originalName": "MyFont-Regular.ttf",
+      "format": "ttf",
+      "isCollection": false,
+      "faceCount": 1,
+      "installMode": "singleFace",
+      "metadata": {
+        "familyName": "My Font",
+        "subfamilyName": "Regular",
+        "postscriptName": "MyFont-Regular",
+        "fullName": "My Font Regular",
+        "version": "1.000",
+        "characterSet": {
+          "unicodeRanges": ["U+0020-U+007E"],
+          "glyphCount": 234
+        },
+        "variationAxes": null,
+        "colorTables": []
+      }
+    }
+  ],
+  "checksum": {
+    "algorithm": "sha256",
+    "manifestHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "entries": {
+      "fonts/2b1a7c9e4d3f8a6b5c2e1d0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b.ttf": "sha256:2b1a7c9e4d3f8a6b5c2e1d0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b"
+    }
+  }
+}

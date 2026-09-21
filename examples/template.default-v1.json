@@ -1,0 +1,42 @@
+{
+  "templateId": "default-v1",
+  "name": "默认预览模板",
+  "canvas": {
+    "width": 600,
+    "height": 200,
+    "background": "#FFFFFF"
+  },
+  "textLayers": [
+    {
+      "id": "sample",
+      "text": "AaBbCc 你好世界 0123",
+      "fontSize": 36,
+      "color": "#333333",
+      "x": 30,
+      "y": 100,
+      "align": "left",
+      "baseline": "middle"
+    },
+    {
+      "id": "family",
+      "text": "{{familyName}}",
+      "fontSize": 14,
+      "color": "#999999",
+      "x": 30,
+      "y": 170,
+      "align": "left"
+    }
+  ],
+  "decorations": [
+    {
+      "type": "rect",
+      "x": 0, "y": 0, "width": 600, "height": 4,
+      "fill": "#4A90D9"
+    }
+  ],
+  "fallback": {
+    "text": "{{fullName}}",
+    "fontSize": 24,
+    "color": "#333333"
+  }
+}
