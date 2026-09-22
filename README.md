@@ -185,12 +185,13 @@ MediaFontsPacked/
 
 本仓库在以下平台同步维护，内容一致：
 
-| 平台      | 地址                                                |
-| ------- | ------------------------------------------------- |
-| GitHub  | https://github.com/zyzhixi/MediaFontsPacked       |
-| CNB     | https://cnb.cool/zyzhixi/MediaFontsPacked         |
-| Gitee   | https://gitee.com/zyzhixi_design/MediaFontsPacked |
-| GitCode | https://gitcode.com/zyzhixi/MediaFontsPacked      |
+| 平台      | 地址                                                    |
+| ------- | ----------------------------------------------------- |
+| GitHub  | https://github.com/zyzhixi/MediaFontsPacked           |
+| CNB     | https://cnb.cool/zyzhixi/MediaFontsPacked             |
+| Gitee   | https://gitee.com/zyzhixi_design/MediaFontsPacked     |
+| GitCode | https://gitcode.com/zyzhixi/MediaFontsPacked          |
+| Codeberg | https://codeberg.org/zyzhixi_design/MediaFontsPacked |
 
 建议以 GitHub 为主仓库发起 Issue 与 Pull Request。
 
